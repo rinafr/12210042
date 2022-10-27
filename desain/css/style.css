@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+    border-radius: 2px;
+    background-color: salmon;
+    padding: 10px;
+}
+
+#tampilantabel {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tampilantabel td, #tampilantabel th {
+    border: 1px solid #f5f2e6;
+    padding: 8px;
+}
+
+#tampilantabel tr:nth-child(even) {background-color: rgb(255, 247, 221);}
+#tampilantabel tr:hover {background-color: rgb(221, 245, 255);}
+
+#tampilantabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: royalblue;
+    color: rgb(0, 0, 0);
+}
+
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid rgb(221, 219, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password]:focus {
+    background-color: aqua;
+}
+input[type=submit],input[type=button], input[type=reset] {
+    background-color: salmon;
+    border: none;
+    color: indianred;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    float:right;
+}
+
+input[type=submit]:hover {
+    background-color: lightsalmon;
+}
+img {
+    border-radius: 80%;
+}
